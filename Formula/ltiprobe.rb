@@ -3,7 +3,7 @@ class Ltiprobe < Formula
 
   desc "HTTP/DNS/ICMP/TCP/TLS latency measurement tool with SLO validation and CDN detection"
   homepage "https://github.com/bglatence/ltiprobe"
-  url "https://files.pythonhosted.org/packages/source/l/ltiprobe/ltiprobe-0.7.0.tar.gz"
+  url "https://files.pythonhosted.org/packages/08/38/2470f0a973f5723642f2a310563c34cc7a4a93b98788f7c7b82cf3a3d75d/ltiprobe-0.7.0.tar.gz"
   sha256 "90b10903f2af376bd0753c8a468f2b93b638f6241128cfab5c53bdd323d0cd48"
   license "MIT"
 

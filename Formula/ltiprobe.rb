@@ -3,8 +3,8 @@ class Ltiprobe < Formula
 
   desc "HTTP/DNS/ICMP/TCP/TLS latency measurement tool with SLO validation, Path MTU, traceroute detail, HDR histogram merge and CDN detection"
   homepage "https://github.com/bglatence/ltiprobe"
-  url "https://files.pythonhosted.org/packages/e9/70/ddff7538428da76451cd96fdc7e24e9db00ebf95b89c361592fd782e161a/ltiprobe-1.5.5.tar.gz"
-  sha256 "955ae313ce2d0d31ddea8635d1721f5f3afc3abde3ee6b471046d3b4a176c561"
+  url "https://files.pythonhosted.org/packages/5e/37/00b33d08a91481a8ac806464f7cc7b326b5c070d66867d1dc1fe1bbe5d9a/ltiprobe-1.6.1.tar.gz"
+  sha256 "fc5ab85ef22130d3c121f67000c47c605251c45043f77334afe88d26441537db"
   license "MIT"
 
   depends_on "python@3.12"
@@ -34,6 +34,6 @@ class Ltiprobe < Formula
   end
 
   test do
-    assert_match "ltiprobe 1.5.5", shell_output("#{bin}/ltiprobe --version")
+    assert_match "ltiprobe 1.6.1", shell_output("#{bin}/ltiprobe --version")
   end
 end
